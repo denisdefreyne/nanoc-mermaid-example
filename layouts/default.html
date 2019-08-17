@@ -7,6 +7,8 @@
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
+
+    <script src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
   </head>
   <body>
     <div id="main">
@@ -25,5 +27,6 @@
         <li><a href="https://nanoc.ws/contributing/">Contributing</a></li>
       </ul>
     </div>
+    <script>mermaid.initialize({startOnLoad:true});</script>
   </body>
 </html>
